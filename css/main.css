@@ -87,17 +87,16 @@ textarea {
    Author's custom styles
    ========================================================================== */
 /*---------- Header and Footer Base Styles ---------------------*/
-header footer{
+header,
+footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: row wrap;
 }
 
-/*----Header Styles -----*/
 header{
-
-
+  padding: 15px 0;
+  flex-flow: row wrap;
 }
 
 header .content-wrapper{
@@ -105,31 +104,30 @@ display: flex;
 justify-content: center;
 align-items:center;
 flex-flow: row wrap;
+margin:0;
 }
 
 .header-divider{
-
-
+  width: 100%;
 }
 
 header nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items:center;
   flex-flow: row wrap;
+  width: 60%;
 }
 
 header nav ul{
   display: flex;
-  justify-content: center;
-  align-items:center;
+  justify-content: space-around;
+  width: 33%;
 }
 
-.hero-area{
-  display: flex;
-  justify-content: center;
-  align-items:center;
-
+header nav li{
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 header figure{
@@ -137,11 +135,18 @@ header figure{
 }
 
 /*--------------Mobile Styles Homepage ----------------*/
-main .content-wrapper{
+.hero-area{
   display: flex;
   justify-content: center;
   align-items:center;
+}
 
+.hero-area h1{
+  padding: 50px 0;
+}
+
+main .content-wrapper{
+  width: 90%;
 }
 
 aside{
@@ -155,7 +160,7 @@ aside .content-wrapper{
   display: flex;
   justify-content: center;
   align-items:center;
-
+flex-direction: column;
 }
 
 .features{
@@ -182,8 +187,16 @@ aside .content-wrapper{
 }
 
 .features-title{
+padding: 50px 0;
 
+}
 
+.features article{
+  width:38%;
+}
+
+.features p{
+  margin: 0;
 }
 
 .fontawesome-icon{
@@ -198,8 +211,13 @@ aside .content-wrapper{
 .reviews{
   display: flex;
   justify-content: center;
-  align-items:center;
   flex-flow: row wrap;
+}
+.reviews h1{
+  padding: 50px 0;
+}
+.reviews h3{
+  width:50%;
 }
 
 .review1{
@@ -254,9 +272,13 @@ aside .content-wrapper{
 }
 /*-------Footer styles------*/
 
+footer .content-wrapper{
+  width: 50%;
+  margin: 50px 0;
+}
+
 footer{
-
-
+  flex-direction: column;
 }
 
 .footer-content{
@@ -264,15 +286,14 @@ footer{
 
 }
 
-.contact{
-
+.contact h2{
+padding: 50px 0;
 }
 
 footer .social p{
   display: flex;
   justify-content: center;
   align-items:center;
-
 }
 
 footer .social-icons{
@@ -281,6 +302,9 @@ footer .social-icons{
   align-items:center;
 }
 
+footer p{
+  margin: 0;
+}
 
 .copyright{
 
