@@ -496,6 +496,8 @@ footer p{
         display:flex;
         justify-content: space-between;
         align-items: center;
+        flex-flow: row wrap;
+        margin-right: 20px;
     }
 
     .mission-content p {
@@ -510,6 +512,7 @@ footer p{
         display:flex;
         justify-content:space-between;
         align-items:center;
+        margin: 20px;
 }
 
 
@@ -520,7 +523,7 @@ footer p{
     }
 
     .faq-content {
-        flex-basis: 40%;
+        width: 40%;
     }
 
     .faq h2 {
