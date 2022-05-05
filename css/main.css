@@ -536,19 +536,54 @@ footer p{
    /* General Styles */
    .content-wrapper{
      max-width: 960px;
-     margin: 100px 0;
    }
    /*Header*/
 
    /*Hero Area*/
-
+    .hero-area h1{
+      width:670px;
+    }
    /*Aside*/
+   aside .content-wrapper {
+           justify-content:space-evenly;
+       }
 
+    aside .content-wrapper .form-description,
+    aside .content-wrapper .form {
+           width:33%;
+       }
    /*Features*/
 
+   .features h2 {
+        width:92%;
+    }
+
+    .features article{
+      flex-basis: 28%;
+    }
+
+
    /*Reviews*/
+   .reviews article div {
+        width:45%;
+    }
 
    /*Footer*/
+   footer .copyright{
+     width: auto;
+   }
+
+   /* About Page Desktop */
+   .mission h2,
+      .contact-section .content-wrapper h2 {
+          width: 80%;
+      }
+
+
+   /*FAQ Page Desktop */
+   .faq h2 {
+           width: 100%;
+       }
 
 
    }
