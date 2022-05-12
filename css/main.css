@@ -95,6 +95,7 @@ textarea {
    body {
      font-family: 'Open Sans', sans-serif;
      font-size: 1em;
+     color: #e2e3ed;
    }
 
    ul,
@@ -109,14 +110,14 @@ textarea {
    h1{
      font-family:  'Poppins', sans-serif;
      font-size: 3.75em;
-     color:#fff;
+     color:#e2e3ed;
      text-align: left;
    }
 
    h2 {
        font-family: 'Poppins', sans-serif;
        font-size:2.25em;
-       color:#fff;
+       color:#e2e3ed;
        text-align: left;
    }
 
@@ -124,21 +125,22 @@ textarea {
    h4 {
        font-family: 'Poppins', sans-serif;
        font-size:1.875em;
-       color:#fff;
+       color:#e2e3ed;
        text-align: left;
    }
 
    p {
       font-size: 1.125em;
-      color:#fff;
+      color:#e2e3ed;
    }
 
    img {
-
+     width:100%;
    }
 
    figure {
-
+     margin:0;
+     width: 33%;
    }
 
    address {
@@ -173,7 +175,6 @@ flex-flow: row wrap;
 
 .content-wrapper{
   width:90%;
-  margin: 50px 0;
 }
 
 .header-divider{
@@ -188,6 +189,7 @@ header nav {
   align-items:center;
   flex-flow: row wrap;
   width: 60%;
+  padding-inline-end: 50px;
 }
 
 header nav ul{
@@ -210,11 +212,20 @@ header figure{
   display: flex;
   justify-content: center;
   align-items:center;
-  background-color: #527158;
+  background: url('../img/hero-image.jpg') center no-repeat #527158;
+  background-size: cover;
+  height: 500px;
 }
 
 .hero-area h1{
   padding: 50px 0;
+  font-size: 2.25em;
+}
+
+.hero-area .content-wrapper{
+  padding:0;
+  margin:0;
+  margin-bottom: 300px;
 }
 
 main .content-wrapper{
@@ -233,7 +244,8 @@ aside{
   display: flex;
   justify-content: center;
   align-items:center;
-  background-color: #202322;
+  background:url('../img/features-background.jpg') center no-repeat #333;
+  background-size: cover;
 }
 
 .features .features-items{
@@ -249,7 +261,7 @@ aside{
 }
 
 .form{
-
+margin-bottom: 50px;
 
 }
 
@@ -269,6 +281,7 @@ article{
 
 .features p{
   margin: 0;
+  text-align: center;
 }
 
 .fontawesome-icon{
@@ -293,9 +306,8 @@ article{
   width:70%;
 }
 
-.review1{
-
-
+.review1 figure{
+width: 100%
 }
 
 /*------about page styles -------*/
@@ -356,8 +368,11 @@ footer{
 }
 
 .footer-content{
+text-align: center;
+}
 
-
+footer h4{
+  text-align: center;
 }
 
 .contact h2{
@@ -510,11 +525,17 @@ input[type=button] {
    /*Header*/
    header{
      justify-content:space-around;
+      height:100px;
    }
 
    header .content-wrapper{
-     width:640px;
+     min-width:640px;
      justify-content: space-between;
+     margin:0;
+   }
+
+   h1{
+     font-size: 3em;
    }
 
    header nav{
@@ -529,7 +550,9 @@ input[type=button] {
    }
 
    /*Hero Area*/
-
+.hero-area{
+  height: 600px;
+}
    /*Aside*/
 
    aside .content-wrapper{
@@ -568,6 +591,17 @@ input[type=button] {
    .reviews article div{
      width: 50%;
    }
+
+   .review1 figure{
+     width: 50%;
+     margin-right:15px;
+   }
+
+   .reviews h3{
+     font-size: 1.5em;
+     margin-top:0;
+   }
+
 
    /*Footer*/
    footer .content-wrapper{
@@ -640,6 +674,7 @@ input[type=button] {
    /*Hero Area*/
     .hero-area h1{
       width:700px;
+      font-size: 3.75em;
     }
    /*Aside*/
    aside .content-wrapper {
@@ -662,6 +697,10 @@ input[type=button] {
 
     .features p{
       text-align: center;
+    }
+
+    .features-title{
+      padding:0;
     }
 
 
