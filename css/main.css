@@ -391,11 +391,11 @@ text-align: center;
 }
 
 footer h4{
-  text-align: center;
+  text-align: left;
 }
 
-.contact h2{
-padding: 50px 0;
+footer .contact{
+
 }
 
 footer .social p{
