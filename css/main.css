@@ -677,6 +677,11 @@ input[type=button] {
         margin: 20px;
 }
 
+.map figure{
+  padding-bottom: 75%;
+}
+
+
 
 /*FAQ Page for Tablets*/
 
@@ -754,6 +759,10 @@ input[type=button] {
         font-size:3em;
         margin-right: 0;
       }
+
+    .map figure{
+      padding-bottom: 75%;
+    }
 
 
    /*FAQ Page Desktop */
