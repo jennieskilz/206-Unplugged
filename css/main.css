@@ -345,10 +345,21 @@ width: 100%
 }
 
 .contact-section h2{
-  font-size:3em;
+  font-size:1.875em;
   margin-right: 0;
 }
 
+.mission h1{
+  font-size:1.875em;
+}
+
+.contact-section h3{
+  font-size: 1.125em;
+}
+
+.contact-section p{
+  font-size: 0.875em;
+}
 
 /*------ FAQ page styles ---------*/
 .faq{
@@ -367,7 +378,7 @@ width: 100%
 }
 
 .faq h2{
-  font-size:3em;
+  font-size:1.875em;
 }
 
 .faq h4{
@@ -386,16 +397,12 @@ footer{
   background-color: #202322;
 }
 
-.footer-content{
-text-align: center;
-}
-
-footer h4{
-  text-align: left;
+footer h3{
+  text-align: center;
 }
 
 footer .contact{
-
+  text-align: center;
 }
 
 footer .social p{
@@ -553,8 +560,12 @@ input[type=button] {
      margin:0;
    }
 
-   h1{
+   .hero-area h1, h1, .mission h1{
      font-size: 3em;
+   }
+
+   h2, .faq h2, .contact-section h2{
+     font-size: 2.25em;
    }
 
    header nav{
@@ -739,12 +750,23 @@ input[type=button] {
           width: 80%;
       }
 
+    .contact-section h2{
+        font-size:3em;
+        margin-right: 0;
+      }
+
 
    /*FAQ Page Desktop */
    .faq h2 {
            width: 100%;
        }
+    .faq h2{
+         font-size:3em;
+       }
 
+    .faq h4{
+         font-size: 1.125em;
+       }
 
    }
 
